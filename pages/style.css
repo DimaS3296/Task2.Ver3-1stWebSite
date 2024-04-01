@@ -1,0 +1,185 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #3b3e79;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0rem;
+    z-index: 2;
+
+}
+
+.hero-title {
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-caption {
+
+    width: 60%;
+
+}
+
+.header_nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+.header_nav a:hover {
+    color: blue;
+    font-size: larger;
+}
+
+.header_nav {
+    background-color: #2e9cca;
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    /*position: sticky;
+    z-index: 1;*/
+
+}
+
+.nav_list {
+    display: flex;
+    flex-flow: nowrap;
+    list-style: none;
+    padding: 1rem;
+    background-origin: padding-box;
+    padding-left: 50px;
+    padding-right: 50px;
+    /*border-style: solid;*/
+    /*border-top: solid;
+    border-bottom: solid;
+    border-color: white;*/
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+    /*position: sticky;
+    z-index: 2;*/
+
+}
+
+.nav_item {
+    padding: 1rem;
+}
+
+main {
+    font-size: 18px;
+    display: flex;
+
+}
+
+.article {
+    /*background-color: lightslategrey;*/
+    color: rgb(95, 165, 209);
+    padding: 5rem;
+}
+
+.pic {
+    width: 300px;
+    height: 200px;
+    padding-right: 10px;
+    transition: transform 1s;
+    /*overflow: hidden;*/
+}
+
+
+/*.pic:hover{
+    width: 400px;
+    height: 300px;
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+}*/
+.pic:hover{
+    transform: scale(1.5);
+   
+}
+
+.img_list {
+    list-style: none;
+}
+
+.img-title {
+    text-transform: uppercase;
+    color: #3b3e79;
+    padding-left: 140px;
+    /*border: solid 1px black ;*/
+}
+
+.photos {
+    text-align: center;
+    /*border: solid 1px black;*/
+}
+
+.aside {
+    color: #3b3e79;
+    background-color: #2e9cca;
+    box-sizing: border-box;
+    width: 20rem;
+    flex-shrink: 0;
+    padding: 5rem;
+
+}
+
+.aside_link,
+.aside_list {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 5px;
+}
+
+footer {
+    color: white;
+    background-color: #3b3e79;
+    height: 200px;
+    text-align: center;
+}
+
+.map {
+    color: bisque;
+}
+
+.contacts_ref {
+    float: left;
+    color: white;
+    text-decoration: none;
+}
+
+.address {
+    color: white;
+}
+
+.mailto {
+    color: white;
+}
+
+.tel {
+    color: white;
+}
+
+.nav_link {
+    color: white;
+}
